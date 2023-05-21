@@ -17,6 +17,6 @@ with open("book.txt", encoding="utf8") as book:
         try:
             generate_chapter(chapter=chapter)
         except Exception as e: 
-            print(f"[{Fore.RED}!{style_reset}] Ha ocurrido un error, la API no puede aceptar más peticiones por el momento. Intenta más tarde")
+            print(f"[{Fore.RED}!{style_reset}] Ha ocurrido un error.")
             print(f'"{e}"')
             
