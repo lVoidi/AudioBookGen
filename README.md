@@ -5,7 +5,7 @@ In order to make work this audio-book generator, you have to install a module ca
 ```
 pip install pyttsx3
 ```
-Then, you have to take all of the text of the book you want to make and audio-book of and paste it in the book.txt file. The script is made in a way that you have so separate each chapter by your own. Its simple, just put an endline at the title and then **put ``::`` at the end of the chapter so the program can separate each chapter**. 
+Then, you have to take all of the text of the book you want to make and audio-book of and paste it in the book.txt file. The script is made in a way that you have so separate each chapter by your own. Its simple, just put a newline at the end of the title and then **put ``::`` at the end of the chapter so the program can separate each chapter**. 
 ```
 Chaper 1
 Foo.::Chapter 2
