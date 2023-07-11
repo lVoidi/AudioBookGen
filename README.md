@@ -8,7 +8,8 @@ pip install pyttsx3
 Then, you have to take all of the text of the book you want to make and audio-book of and paste it in the book.txt file. The script is made in a way that you have so separate each chapter by your own. Its simple, just put a newline at the end of the title and then **put ``::`` at the end of the chapter so the program can separate each chapter**. 
 ```
 Chaper 1
-Foo.::Chapter 2
+Foo.
+::Chapter 2
 Bar
 ```
 In this case, the program takes ``Chapter 1`` as if it was the title of the chapter, and ``Foo`` as the content of the chapter. Then, it will create an audio file with the name of the title it took and the content will be ``Foo``. The file``book.txt`` contains an example in spanish, but **you can take any other language**.
